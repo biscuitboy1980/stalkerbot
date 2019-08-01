@@ -1,0 +1,18 @@
+{
+  "name": "nastybot",
+  "version": "1.0.0",
+  "description": "nastybot",
+  "main": "nastybot.js",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nasty"
+  ],
+  "author": "-charger-",
+  "license": "ISC"
+}
