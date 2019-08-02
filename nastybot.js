@@ -18,6 +18,63 @@ client.on('message', message => {
             message.author.send('_```Nastybot generates random a random NSFW gif by category\n\nPrefix = $\n\nUsage $help\n\nAvailable commands:\nhelp, 69, bite, boobs, blow, doggy, dom, fuck, gnight, kiss, lick, orgy, peg, ride, spank, strip```_')
         }
 
+        if(message.content.startsWith(`${prefix}3some`)){ 
+
+            var option = "3some";
+            if (message.channel.nsfw === false) {
+                return message.reply(":warning: This channel isn't marked as NSFW.");
+              }
+    
+            else {
+                let member = message.mentions.members.first()
+                // if (member == undefined) {
+                //     return message.reply(":interrobang: you must specify a user.");
+                // }
+                // else {
+                    if (message.member.roles.has("604460506144702494" && (member.roles.has("604460824668536997")))){
+                            var dir = path + option + '/ffm/'
+                            console.log("ffm1");
+                    }
+                    // if (message.member.roles.has("604460506144702494") && (member.roles.has("604460824668536997") && member.roles.has("604460824668536997"))){
+                    //     var dir = path + option + '/ffm/'
+                    //     console.log("ffm1");
+                    // }
+                    // else if (message.member.roles.has("604460506144702494") && (member.roles.has("604460824668536997") && (member.roles.has("604460506144702494")))){
+                    //     var dir = path + option + '/ffm/';
+                    //     console.log("ffm2");
+                    // }
+                    // else if (message.member.roles.has("604460506144702494") && (member.roles.has("604460506144702494") && (member.roles.has("604460824668536997")))){
+                    //     var dir = path + option + '/mmf/';
+                    //     console.log("mmf1");
+                    // }
+                    // else if (message.member.roles.has("604460824668536997") && (member.roles.has("604460506144702494") && (member.roles.has("604460506144702494")))){
+                    //     var dir = path + option + '/mmf/';
+                    //     console.log("mmf2");
+                    // }
+                    // else if (message.member.roles.has("604460824668536997") && (member.roles.has("604460824668536997") && (member.roles.has("604460506144702494")))){
+                    //     var dir = path + option + '/mmf/';
+                    //     console.log("mmf3");
+                    // }
+                    // else if (message.member.roles.has("604460824668536997") && (member.roles.has("604460824668536997") && (member.roles.has("604460824668536997")))){
+                    //     var dir = path + option + '/fff/';
+                    //     console.log("fff");
+                    // }
+                    else {
+                        var dir = path + option + '/ffm/';
+                        console.log("in else")
+                                        }
+                    fs.readdir(dir, (err, files) => {
+                        max = (files.length)                   
+                        var random = Math.floor(Math.random() * (+max - +min)) + +min;
+                        message.channel.send(`${message.author} has a threesome with ${member} and ${member}`, {
+                            file: dir + random +'.gif'
+                            });
+                        });
+                    }
+                // }
+
+        }
+
         if(message.content.startsWith(`${prefix}69`)){ 
 
             var option = "69";
@@ -32,6 +89,9 @@ client.on('message', message => {
                 }
                 else {
                     if (message.member.roles.has("604460506144702494") && (member.roles.has("604460824668536997"))){
+                        var dir = path + option + '/mf/';
+                    }
+                    else if (message.member.roles.has("604460824668536997") && (member.roles.has("604460506144702494"))){
                         var dir = path + option + '/mf/';
                     }
                     else {
@@ -472,11 +532,11 @@ client.on('message', message => {
                 else {
                     if (message.member.roles.has("604460506144702494") && (member.roles.has("604460824668536997"))){
                         var dir = path + option + '/mf/';
-                        var msg = `${member}` + " has been a bad girl, :smiling_imp: " + `${message.author}` + " needs to spank her :hand_splayed: :peach: ";
+                        var msg = `${message.author}` + " spanks " + `${member}` + " like a dirty girl :hand_splayed: :peach:";
                     }
                     else if (message.member.roles.has("604460824668536997") && (member.roles.has("604460506144702494"))){
-                        var dir = path + option + '/mf/';
-                        var msg = `${message.author}` + " lets " +  `${member}` + " spank her like a dirty girl :hand_splayed: :peach: ";
+                        var dir = path + option + '/fm/';
+                        var msg = `${message.author}` + " spanks " + `${member}` + " like a bad boy :hand_splayed: :peach:";
                     }
                     else {
                         var dir = path + option + '/ff/';
@@ -497,31 +557,39 @@ client.on('message', message => {
         if(message.content.startsWith(`${prefix}strip`)){ 
 
             var option = "strip";
+
             if (message.channel.nsfw === false) {
                 return message.reply(":warning: This channel isn't marked as NSFW.");
               }
     
             else {
-                if (message.member.roles.has("604460506144702494")){
-                    var dir = path + option + '/m/';
+                let member = message.mentions.members.first()
+                if (member == undefined) {
+                    return message.reply(":interrobang: you must specify a user.");
                 }
                 else {
-                    var dir = path + option + '/f/'
-                }
-                fs.readdir(dir, (err, files) => {
-                    max = (files.length)                   
-                    var random = Math.floor(Math.random() * (+max - +min)) + +min;
-                    message.channel.send(`${message.author} strips for the room :high_heel: :man_dancing:`, {
-                        file: dir + random +'.gif'
+                    if (message.member.roles.has("604460824668536997") && (member.roles.has("604460506144702494"))){
+                        var dir = path + option + '/m/';
+                    }
+                    else if (message.member.roles.has("604460506144702494") && (member.roles.has("604460824668536997"))){
+                        var dir = path + option + '/f/';
+                    }
+                    else {
+                    var dir = path + option + '/f/';
+                    }
+
+                    fs.readdir(dir, (err, files) => {
+                        max = (files.length)                   
+                        var random = Math.floor(Math.random() * (+max - +min)) + +min;
+                        message.channel.send(`${message.author} orders ${member} to strip :man_dancing: :high_heel: `, {
+                            file: dir + random +'.gif'
+                            });
                         });
-                    });
+                    }   
                 }
 
         }
-
-
-
-        
+  
     })
 
 
