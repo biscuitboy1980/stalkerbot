@@ -1,0 +1,435 @@
+2019-08-06 19:06:39 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-06 19:06:39 - Started 4080
+2019-08-06 19:52:43 - Stopping nastybot.exe
+2019-08-06 19:52:43 - ProcessKill 4080
+2019-08-06 19:52:43 - Found child process: 7372 Name: node.exe
+2019-08-06 19:52:43 - Stopping process 7372
+2019-08-06 19:52:43 - Send SIGINT 7372
+2019-08-06 19:52:43 - SIGINT to 7372 failed - Killing as fallback
+2019-08-06 19:52:43 - Stopping process 4080
+2019-08-06 19:52:43 - Send SIGINT 4080
+2019-08-06 19:52:43 - SIGINT to4080 successful
+2019-08-06 19:52:43 - Finished nastybot.exe
+2019-08-06 19:52:44 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-06 19:52:44 - Started 4564
+2019-08-06 20:50:55 - Stopping nastybot.exe
+2019-08-06 20:50:55 - ProcessKill 4564
+2019-08-06 20:50:55 - Found child process: 10004 Name: node.exe
+2019-08-06 20:50:55 - Stopping process 10004
+2019-08-06 20:50:55 - Send SIGINT 10004
+2019-08-06 20:50:55 - SIGINT to 10004 failed - Killing as fallback
+2019-08-06 20:50:55 - Stopping process 4564
+2019-08-06 20:50:55 - Send SIGINT 4564
+2019-08-06 20:50:55 - SIGINT to4564 successful
+2019-08-06 20:50:55 - Finished nastybot.exe
+2019-08-06 20:50:56 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-06 20:50:56 - Started 10916
+2019-08-06 20:55:46 - Stopping nastybot.exe
+2019-08-06 20:55:46 - ProcessKill 10916
+2019-08-06 20:55:46 - Found child process: 5768 Name: node.exe
+2019-08-06 20:55:46 - Stopping process 5768
+2019-08-06 20:55:46 - Send SIGINT 5768
+2019-08-06 20:55:46 - SIGINT to 5768 failed - Killing as fallback
+2019-08-06 20:55:46 - Stopping process 10916
+2019-08-06 20:55:46 - Send SIGINT 10916
+2019-08-06 20:55:46 - SIGINT to10916 successful
+2019-08-06 20:55:46 - Finished nastybot.exe
+2019-08-06 20:55:47 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-06 20:55:47 - Started 6892
+2019-08-06 23:10:07 - Stopping nastybot.exe
+2019-08-06 23:10:07 - ProcessKill 6892
+2019-08-06 23:10:07 - Found child process: 6396 Name: node.exe
+2019-08-06 23:10:07 - Stopping process 6396
+2019-08-06 23:10:07 - Send SIGINT 6396
+2019-08-06 23:10:07 - SIGINT to 6396 failed - Killing as fallback
+2019-08-06 23:10:07 - Stopping process 6892
+2019-08-06 23:10:07 - Send SIGINT 6892
+2019-08-06 23:10:07 - SIGINT to6892 successful
+2019-08-06 23:10:07 - Finished nastybot.exe
+2019-08-06 23:10:08 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-06 23:10:08 - Started 9424
+2019-08-06 23:43:57 - Stopping nastybot.exe
+2019-08-06 23:43:57 - ProcessKill 9424
+2019-08-06 23:43:57 - Found child process: 12352 Name: node.exe
+2019-08-06 23:43:57 - Stopping process 12352
+2019-08-06 23:43:57 - Send SIGINT 12352
+2019-08-06 23:43:57 - SIGINT to 12352 failed - Killing as fallback
+2019-08-06 23:43:57 - Stopping process 9424
+2019-08-06 23:43:57 - Send SIGINT 9424
+2019-08-06 23:43:57 - SIGINT to9424 successful
+2019-08-06 23:43:57 - Finished nastybot.exe
+2019-08-06 23:43:58 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-06 23:43:58 - Started 9860
+2019-08-09 17:43:24 - Stopping nastybot.exe
+2019-08-09 17:43:24 - ProcessKill 9860
+2019-08-09 17:43:24 - Found child process: 10716 Name: node.exe
+2019-08-09 17:43:24 - Stopping process 10716
+2019-08-09 17:43:24 - Send SIGINT 10716
+2019-08-09 17:43:24 - SIGINT to 10716 failed - Killing as fallback
+2019-08-09 17:43:24 - Stopping process 9860
+2019-08-09 17:43:24 - Send SIGINT 9860
+2019-08-09 17:43:24 - SIGINT to9860 successful
+2019-08-09 17:43:24 - Finished nastybot.exe
+2019-08-09 17:43:26 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-09 17:43:26 - Started 10040
+2019-08-09 17:46:13 - Stopping nastybot.exe
+2019-08-09 17:46:13 - ProcessKill 10040
+2019-08-09 17:46:13 - Found child process: 15268 Name: node.exe
+2019-08-09 17:46:13 - Stopping process 15268
+2019-08-09 17:46:13 - Send SIGINT 15268
+2019-08-09 17:46:13 - SIGINT to 15268 failed - Killing as fallback
+2019-08-09 17:46:13 - Stopping process 10040
+2019-08-09 17:46:13 - Send SIGINT 10040
+2019-08-09 17:46:13 - SIGINT to10040 successful
+2019-08-09 17:46:13 - Finished nastybot.exe
+2019-08-09 17:46:16 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-09 17:46:16 - Started 916
+2019-08-09 17:53:53 - Stopping nastybot.exe
+2019-08-09 17:53:53 - ProcessKill 916
+2019-08-09 17:53:54 - Found child process: 10516 Name: node.exe
+2019-08-09 17:53:54 - Stopping process 10516
+2019-08-09 17:53:54 - Send SIGINT 10516
+2019-08-09 17:53:54 - SIGINT to 10516 failed - Killing as fallback
+2019-08-09 17:53:54 - Stopping process 916
+2019-08-09 17:53:54 - Send SIGINT 916
+2019-08-09 17:53:54 - SIGINT to916 successful
+2019-08-09 17:53:54 - Finished nastybot.exe
+2019-08-09 17:53:55 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-09 17:53:55 - Started 5232
+2019-08-09 17:54:38 - Stopping nastybot.exe
+2019-08-09 17:54:38 - ProcessKill 5232
+2019-08-09 17:54:38 - Found child process: 8264 Name: node.exe
+2019-08-09 17:54:38 - Stopping process 8264
+2019-08-09 17:54:38 - Send SIGINT 8264
+2019-08-09 17:54:38 - SIGINT to 8264 failed - Killing as fallback
+2019-08-09 17:54:38 - Stopping process 5232
+2019-08-09 17:54:38 - Send SIGINT 5232
+2019-08-09 17:54:38 - SIGINT to5232 successful
+2019-08-09 17:54:38 - Finished nastybot.exe
+2019-08-09 17:54:39 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-09 17:54:39 - Started 5676
+2019-08-09 17:55:03 - Stopping nastybot.exe
+2019-08-09 17:55:03 - ProcessKill 5676
+2019-08-09 17:55:03 - Found child process: 13016 Name: node.exe
+2019-08-09 17:55:03 - Stopping process 13016
+2019-08-09 17:55:03 - Send SIGINT 13016
+2019-08-09 17:55:03 - SIGINT to 13016 failed - Killing as fallback
+2019-08-09 17:55:03 - Stopping process 5676
+2019-08-09 17:55:03 - Send SIGINT 5676
+2019-08-09 17:55:03 - SIGINT to5676 successful
+2019-08-09 17:55:03 - Finished nastybot.exe
+2019-08-09 17:55:04 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-09 17:55:04 - Started 11888
+2019-08-09 17:55:50 - Stopping nastybot.exe
+2019-08-09 17:55:50 - ProcessKill 11888
+2019-08-09 17:55:50 - Found child process: 10352 Name: node.exe
+2019-08-09 17:55:50 - Stopping process 10352
+2019-08-09 17:55:50 - Send SIGINT 10352
+2019-08-09 17:55:50 - SIGINT to 10352 failed - Killing as fallback
+2019-08-09 17:55:50 - Stopping process 11888
+2019-08-09 17:55:50 - Send SIGINT 11888
+2019-08-09 17:55:50 - SIGINT to11888 successful
+2019-08-09 17:55:50 - Finished nastybot.exe
+2019-08-10 16:19:01 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-10 16:19:01 - Started 15732
+2019-08-10 16:21:43 - Stopping nastybot.exe
+2019-08-10 16:21:43 - ProcessKill 15732
+2019-08-10 16:21:44 - Found child process: 5496 Name: node.exe
+2019-08-10 16:21:44 - Stopping process 5496
+2019-08-10 16:21:44 - Send SIGINT 5496
+2019-08-10 16:21:44 - SIGINT to 5496 failed - Killing as fallback
+2019-08-10 16:21:44 - Stopping process 15732
+2019-08-10 16:21:44 - Send SIGINT 15732
+2019-08-10 16:21:44 - SIGINT to15732 successful
+2019-08-10 16:21:44 - Finished nastybot.exe
+2019-08-11 13:12:36 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-11 13:12:36 - Started 2480
+2019-08-11 13:42:14 - Stopping nastybot.exe
+2019-08-11 13:42:14 - ProcessKill 2480
+2019-08-11 13:42:14 - Found child process: 1804 Name: node.exe
+2019-08-11 13:42:15 - Stopping process 1804
+2019-08-11 13:42:15 - Send SIGINT 1804
+2019-08-11 13:42:15 - SIGINT to 1804 failed - Killing as fallback
+2019-08-11 13:42:15 - Stopping process 2480
+2019-08-11 13:42:15 - Send SIGINT 2480
+2019-08-11 13:42:15 - SIGINT to2480 successful
+2019-08-11 13:42:15 - Finished nastybot.exe
+2019-08-11 13:42:16 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-11 13:42:16 - Started 14144
+2019-08-11 13:42:21 - Stopping nastybot.exe
+2019-08-11 13:42:21 - ProcessKill 14144
+2019-08-11 13:42:21 - Found child process: 6600 Name: node.exe
+2019-08-11 13:42:21 - Stopping process 6600
+2019-08-11 13:42:21 - Send SIGINT 6600
+2019-08-11 13:42:21 - SIGINT to 6600 failed - Killing as fallback
+2019-08-11 13:42:21 - Stopping process 14144
+2019-08-11 13:42:21 - Send SIGINT 14144
+2019-08-11 13:42:21 - SIGINT to14144 successful
+2019-08-11 13:42:21 - Finished nastybot.exe
+2019-08-11 13:42:22 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-11 13:42:22 - Started 6356
+2019-08-11 13:42:56 - Stopping nastybot.exe
+2019-08-11 13:42:56 - ProcessKill 6356
+2019-08-11 13:42:56 - Found child process: 3892 Name: node.exe
+2019-08-11 13:42:56 - Found child process: 3928 Name: explorer.exe
+2019-08-11 13:42:56 - Found child process: 1840 Name: RtkNGUI64.exe
+2019-08-11 13:42:56 - Found child process: 3848 Name: LCore.exe
+2019-08-11 13:42:56 - Found child process: 4020 Name: msseces.exe
+2019-08-11 13:42:56 - Found child process: 4036 Name: chrome.exe
+2019-08-11 13:42:56 - Found child process: 5028 Name: mmc.exe
+2019-08-11 13:42:56 - Found child process: 5056 Name: HD-MultiInstanceManager.exe
+2019-08-11 13:42:56 - Stopping process 1840
+2019-08-11 13:42:56 - Send SIGINT 1840
+2019-08-11 13:42:56 - SIGINT to 1840 failed - Killing as fallback
+2019-08-11 13:42:56 - Found child process: 5796 Name: LCDMedia.exe
+2019-08-11 13:42:56 - Found child process: 5812 Name: LCDCountdown.exe
+2019-08-11 13:42:56 - Found child process: 5824 Name: LCDClock.exe
+2019-08-11 13:42:56 - Found child process: 5844 Name: LCDPOP3.exe
+2019-08-11 13:42:56 - Found child process: 5852 Name: LCDRSS.exe
+2019-08-11 13:42:56 - Stopping process 5796
+2019-08-11 13:42:56 - Send SIGINT 5796
+2019-08-11 13:42:56 - SIGINT to 5796 failed - Killing as fallback
+2019-08-11 13:42:56 - Stopping process 5812
+2019-08-11 13:42:56 - Send SIGINT 5812
+2019-08-11 13:42:56 - SIGINT to 5812 failed - Killing as fallback
+2019-08-11 13:42:56 - Stopping process 5824
+2019-08-11 13:42:56 - Send SIGINT 5824
+2019-08-11 13:42:56 - SIGINT to 5824 failed - Killing as fallback
+2019-08-11 13:42:56 - Stopping process 5844
+2019-08-11 13:42:56 - Send SIGINT 5844
+2019-08-11 13:42:57 - SIGINT to 5844 failed - Killing as fallback
+2019-08-11 13:42:57 - Stopping process 5852
+2019-08-11 13:42:57 - Send SIGINT 5852
+2019-08-11 13:42:57 - SIGINT to 5852 failed - Killing as fallback
+2019-08-11 13:42:57 - Stopping process 3848
+2019-08-11 13:42:57 - Send SIGINT 3848
+2019-08-11 13:42:57 - SIGINT to 3848 failed - Killing as fallback
+2019-08-11 13:42:57 - Stopping process 4020
+2019-08-11 13:42:57 - Send SIGINT 4020
+2019-08-11 13:42:57 - SIGINT to 4020 failed - Killing as fallback
+2019-08-11 13:42:57 - Found child process: 4072 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 4004 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 4144 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 4152 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 4312 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 4328 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 4336 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 4384 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 4412 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 4488 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 9132 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 8772 Name: cmd.exe
+2019-08-11 13:42:57 - Found child process: 5976 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 15312 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 13912 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 14328 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 9092 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 3416 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 10028 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 1220 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 7752 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 15564 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 12452 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 2240 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 16016 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 15876 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 15648 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 10996 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 14032 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 14748 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 13716 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 13972 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 15824 Name: chrome.exe
+2019-08-11 13:42:57 - Found child process: 3324 Name: chrome.exe
+2019-08-11 13:42:57 - Stopping process 4072
+2019-08-11 13:42:57 - Send SIGINT 4072
+2019-08-11 13:42:57 - SIGINT to 4072 failed - Killing as fallback
+2019-08-11 13:42:57 - Stopping process 4004
+2019-08-11 13:42:57 - Send SIGINT 4004
+2019-08-11 13:42:57 - SIGINT to 4004 failed - Killing as fallback
+2019-08-11 13:42:57 - Stopping process 4144
+2019-08-11 13:42:57 - Send SIGINT 4144
+2019-08-11 13:42:57 - SIGINT to 4144 failed - Killing as fallback
+2019-08-11 13:42:57 - Stopping process 4152
+2019-08-11 13:42:57 - Send SIGINT 4152
+2019-08-11 13:42:57 - SIGINT to 4152 failed - Killing as fallback
+2019-08-11 13:42:57 - Stopping process 4312
+2019-08-11 13:42:57 - Send SIGINT 4312
+2019-08-11 13:42:57 - SIGINT to 4312 failed - Killing as fallback
+2019-08-11 13:42:57 - Stopping process 4328
+2019-08-11 13:42:57 - Send SIGINT 4328
+2019-08-11 13:42:57 - SIGINT to 4328 failed - Killing as fallback
+2019-08-11 13:42:57 - Stopping process 4336
+2019-08-11 13:42:57 - Send SIGINT 4336
+2019-08-11 13:42:57 - SIGINT to 4336 failed - Killing as fallback
+2019-08-11 13:42:58 - Stopping process 4384
+2019-08-11 13:42:58 - Send SIGINT 4384
+2019-08-11 13:42:58 - SIGINT to 4384 failed - Killing as fallback
+2019-08-11 13:42:58 - Stopping process 4412
+2019-08-11 13:42:58 - Send SIGINT 4412
+2019-08-11 13:42:58 - SIGINT to 4412 failed - Killing as fallback
+2019-08-11 13:42:58 - Stopping process 4488
+2019-08-11 13:42:58 - Send SIGINT 4488
+2019-08-11 13:42:58 - SIGINT to 4488 failed - Killing as fallback
+2019-08-11 13:42:58 - Stopping process 9132
+2019-08-11 13:42:58 - Send SIGINT 9132
+2019-08-11 13:42:58 - SIGINT to 9132 failed - Killing as fallback
+2019-08-11 13:42:58 - Found child process: 8020 Name: Ranorex.Plugin.ChromeMsgHost.exe
+2019-08-11 13:42:58 - Stopping process 8020
+2019-08-11 13:42:58 - Process 8020 is already stopped
+2019-08-11 13:42:58 - Stopping process 8772
+2019-08-11 13:42:58 - Process 8772 is already stopped
+2019-08-11 13:42:58 - Stopping process 5976
+2019-08-11 13:42:58 - Send SIGINT 5976
+2019-08-11 13:42:58 - SIGINT to 5976 failed - Killing as fallback
+2019-08-11 13:42:58 - Stopping process 15312
+2019-08-11 13:42:58 - Send SIGINT 15312
+2019-08-11 13:42:58 - SIGINT to 15312 failed - Killing as fallback
+2019-08-11 13:42:58 - Stopping process 13912
+2019-08-11 13:42:58 - Send SIGINT 13912
+2019-08-11 13:42:58 - SIGINT to 13912 failed - Killing as fallback
+2019-08-11 13:42:58 - Stopping process 14328
+2019-08-11 13:42:58 - Send SIGINT 14328
+2019-08-11 13:42:58 - SIGINT to 14328 failed - Killing as fallback
+2019-08-11 13:42:59 - Stopping process 9092
+2019-08-11 13:42:59 - Send SIGINT 9092
+2019-08-11 13:42:59 - SIGINT to 9092 failed - Killing as fallback
+2019-08-11 13:42:59 - Stopping process 3416
+2019-08-11 13:42:59 - Send SIGINT 3416
+2019-08-11 13:42:59 - SIGINT to 3416 failed - Killing as fallback
+2019-08-11 13:42:59 - Stopping process 10028
+2019-08-11 13:42:59 - Send SIGINT 10028
+2019-08-11 13:42:59 - SIGINT to 10028 failed - Killing as fallback
+2019-08-11 13:42:59 - Stopping process 1220
+2019-08-11 13:42:59 - Send SIGINT 1220
+2019-08-11 13:42:59 - SIGINT to 1220 failed - Killing as fallback
+2019-08-11 13:42:59 - Stopping process 7752
+2019-08-11 13:42:59 - Process 7752 is already stopped
+2019-08-11 13:42:59 - Stopping process 15564
+2019-08-11 13:42:59 - Send SIGINT 15564
+2019-08-11 13:42:59 - SIGINT to 15564 failed - Killing as fallback
+2019-08-11 13:42:59 - Stopping process 12452
+2019-08-11 13:42:59 - Send SIGINT 12452
+2019-08-11 13:42:59 - SIGINT to 12452 failed - Killing as fallback
+2019-08-11 13:42:59 - Stopping process 2240
+2019-08-11 13:42:59 - Send SIGINT 2240
+2019-08-11 13:42:59 - SIGINT to 2240 failed - Killing as fallback
+2019-08-11 13:42:59 - Stopping process 16016
+2019-08-11 13:42:59 - Send SIGINT 16016
+2019-08-11 13:42:59 - SIGINT to 16016 failed - Killing as fallback
+2019-08-11 13:42:59 - Stopping process 15876
+2019-08-11 13:42:59 - Send SIGINT 15876
+2019-08-11 13:42:59 - SIGINT to 15876 failed - Killing as fallback
+2019-08-11 13:42:59 - Stopping process 15648
+2019-08-11 13:42:59 - Send SIGINT 15648
+2019-08-11 13:42:59 - SIGINT to 15648 failed - Killing as fallback
+2019-08-11 13:42:59 - Stopping process 10996
+2019-08-11 13:42:59 - Send SIGINT 10996
+2019-08-11 13:42:59 - SIGINT to 10996 failed - Killing as fallback
+2019-08-11 13:42:59 - Stopping process 14032
+2019-08-11 13:42:59 - Send SIGINT 14032
+2019-08-11 13:42:59 - SIGINT to 14032 failed - Killing as fallback
+2019-08-11 13:42:59 - Stopping process 14748
+2019-08-11 13:42:59 - Send SIGINT 14748
+2019-08-11 13:42:59 - SIGINT to 14748 failed - Killing as fallback
+2019-08-11 13:42:59 - Stopping process 13716
+2019-08-11 13:42:59 - Send SIGINT 13716
+2019-08-11 13:42:59 - SIGINT to 13716 failed - Killing as fallback
+2019-08-11 13:42:59 - Stopping process 13972
+2019-08-11 13:42:59 - Send SIGINT 13972
+2019-08-11 13:42:59 - SIGINT to 13972 failed - Killing as fallback
+2019-08-11 13:42:59 - Stopping process 15824
+2019-08-11 13:42:59 - Send SIGINT 15824
+2019-08-11 13:42:59 - SIGINT to 15824 failed - Killing as fallback
+2019-08-11 13:42:59 - Stopping process 3324
+2019-08-11 13:42:59 - Send SIGINT 3324
+2019-08-11 13:42:59 - SIGINT to 3324 failed - Killing as fallback
+2019-08-11 13:42:59 - Stopping process 4036
+2019-08-11 13:42:59 - Send SIGINT 4036
+2019-08-11 13:43:00 - SIGINT to 4036 failed - Killing as fallback
+2019-08-11 13:43:00 - Stopping process 5028
+2019-08-11 13:43:00 - Send SIGINT 5028
+2019-08-11 13:43:00 - SIGINT to 5028 failed - Killing as fallback
+2019-08-11 13:43:00 - Stopping process 5056
+2019-08-11 13:43:00 - Send SIGINT 5056
+2019-08-11 13:43:00 - SIGINT to 5056 failed - Killing as fallback
+2019-08-11 13:43:00 - Stopping process 3928
+2019-08-11 13:43:00 - Send SIGINT 3928
+2019-08-11 13:43:00 - SIGINT to 3928 failed - Killing as fallback
+2019-08-11 13:43:00 - Stopping process 3892
+2019-08-11 13:43:00 - Send SIGINT 3892
+2019-08-11 13:43:00 - SIGINT to 3892 failed - Killing as fallback
+2019-08-11 13:43:00 - Stopping process 6356
+2019-08-11 13:43:00 - Send SIGINT 6356
+2019-08-11 13:43:00 - SIGINT to6356 successful
+2019-08-11 13:43:00 - Finished nastybot.exe
+2019-08-11 13:43:17 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-11 13:43:17 - Started 6128
+2019-08-11 14:03:14 - Stopping nastybot.exe
+2019-08-11 14:03:14 - ProcessKill 6128
+2019-08-11 14:03:14 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2019-08-11 14:03:41 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-11 14:03:41 - Started 584
+2019-08-11 14:12:10 - Stopping nastybot.exe
+2019-08-11 14:12:10 - ProcessKill 584
+2019-08-11 14:12:10 - Found child process: 2572 Name: node.exe
+2019-08-11 14:12:10 - Stopping process 2572
+2019-08-11 14:12:10 - Send SIGINT 2572
+2019-08-11 14:12:10 - SIGINT to 2572 failed - Killing as fallback
+2019-08-11 14:12:10 - Stopping process 584
+2019-08-11 14:12:10 - Send SIGINT 584
+2019-08-11 14:12:10 - SIGINT to584 successful
+2019-08-11 14:12:10 - Finished nastybot.exe
+2019-08-11 14:12:11 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-11 14:12:11 - Started 1152
+2019-08-11 18:23:30 - Stopping nastybot.exe
+2019-08-11 18:23:30 - ProcessKill 1152
+2019-08-11 18:23:30 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2019-08-11 18:24:04 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-11 18:24:04 - Started 2116
+2019-08-11 18:27:05 - Stopping nastybot.exe
+2019-08-11 18:27:05 - ProcessKill 2116
+2019-08-11 18:27:06 - Found child process: 2320 Name: node.exe
+2019-08-11 18:27:06 - Stopping process 2320
+2019-08-11 18:27:06 - Send SIGINT 2320
+2019-08-11 18:27:06 - SIGINT to 2320 failed - Killing as fallback
+2019-08-11 18:27:06 - Stopping process 2116
+2019-08-11 18:27:06 - Send SIGINT 2116
+2019-08-11 18:27:06 - SIGINT to2116 successful
+2019-08-11 18:27:06 - Finished nastybot.exe
+2019-08-11 18:27:08 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-11 18:27:08 - Started 8100
+2019-08-12 08:18:10 - Stopping nastybot.exe
+2019-08-12 08:18:10 - ProcessKill 8100
+2019-08-12 08:18:10 - Found child process: 8700 Name: node.exe
+2019-08-12 08:18:10 - Stopping process 8700
+2019-08-12 08:18:10 - Send SIGINT 8700
+2019-08-12 08:18:10 - SIGINT to 8700 failed - Killing as fallback
+2019-08-12 08:18:10 - Stopping process 8100
+2019-08-12 08:18:10 - Send SIGINT 8100
+2019-08-12 08:18:10 - SIGINT to8100 successful
+2019-08-12 08:18:10 - Finished nastybot.exe
+2019-08-12 15:41:40 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-12 15:41:40 - Started 3188
+2019-08-14 16:18:41 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-14 16:18:41 - Started 5404
