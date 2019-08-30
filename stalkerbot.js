@@ -26,17 +26,18 @@ client.on('message', message => {
                 max: 1,
                 time: 15000,
                 errors: ['time'],
+
               })
               .then((collected) => {
                   fs.createReadStream('locations.csv')
                   .pipe(csv())
-                  .on('bacardi', (row) => {
+                  .on('data', (row) => {
                     console.log(row);
                   })
                   .on('end', () => {
                     console.log('CSV file successfully processed');
-                  })
-                  message.channel.send(`List currently known ${collected.first().content} members?`);
+                  });
+              
                 })
                 .catch(() => {
                   message.channel.send('A response was not received within the time limit!');
