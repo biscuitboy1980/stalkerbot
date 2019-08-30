@@ -433,3 +433,188 @@ Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInter
 2019-08-12 15:41:40 - Started 3188
 2019-08-14 16:18:41 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
 2019-08-14 16:18:41 - Started 5404
+2019-08-17 02:00:27 - Stopping nastybot.exe
+2019-08-17 02:00:27 - ProcessKill 5404
+2019-08-17 02:00:27 - Found child process: 1008 Name: node.exe
+2019-08-17 02:00:27 - Stopping process 1008
+2019-08-17 02:00:27 - Send SIGINT 1008
+2019-08-17 02:00:27 - SIGINT to 1008 failed - Killing as fallback
+2019-08-17 02:00:27 - Stopping process 5404
+2019-08-17 02:00:27 - Send SIGINT 5404
+2019-08-17 02:00:27 - SIGINT to5404 successful
+2019-08-17 02:00:27 - Finished nastybot.exe
+2019-08-17 02:00:29 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-17 02:00:29 - Started 9964
+2019-08-18 02:38:11 - Stopping nastybot.exe
+2019-08-18 02:38:11 - ProcessKill 9964
+2019-08-18 02:38:11 - Found child process: 5680 Name: node.exe
+2019-08-18 02:38:11 - Stopping process 5680
+2019-08-18 02:38:11 - Send SIGINT 5680
+2019-08-18 02:38:11 - SIGINT to 5680 failed - Killing as fallback
+2019-08-18 02:38:11 - Stopping process 9964
+2019-08-18 02:38:11 - Send SIGINT 9964
+2019-08-18 02:38:11 - SIGINT to9964 successful
+2019-08-18 02:38:11 - Finished nastybot.exe
+2019-08-18 02:38:13 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-18 02:38:13 - Started 7428
+2019-08-18 20:28:04 - Stopping nastybot.exe
+2019-08-18 20:28:04 - ProcessKill 7428
+2019-08-18 20:28:04 - Found child process: 8748 Name: node.exe
+2019-08-18 20:28:04 - Stopping process 8748
+2019-08-18 20:28:04 - Send SIGINT 8748
+2019-08-18 20:28:04 - SIGINT to 8748 failed - Killing as fallback
+2019-08-18 20:28:04 - Stopping process 7428
+2019-08-18 20:28:04 - Send SIGINT 7428
+2019-08-18 20:28:04 - SIGINT to7428 successful
+2019-08-18 20:28:05 - Finished nastybot.exe
+2019-08-18 20:28:06 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-18 20:28:06 - Started 8856
+2019-08-18 20:33:41 - Stopping nastybot.exe
+2019-08-18 20:33:41 - ProcessKill 8856
+2019-08-18 20:33:41 - Found child process: 1436 Name: node.exe
+2019-08-18 20:33:41 - Stopping process 1436
+2019-08-18 20:33:41 - Send SIGINT 1436
+2019-08-18 20:33:41 - SIGINT to 1436 failed - Killing as fallback
+2019-08-18 20:33:41 - Stopping process 8856
+2019-08-18 20:33:41 - Send SIGINT 8856
+2019-08-18 20:33:41 - SIGINT to8856 successful
+2019-08-18 20:33:41 - Finished nastybot.exe
+2019-08-18 20:33:43 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-18 20:33:43 - Started 7416
+2019-08-18 20:34:45 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-18 20:34:45 - Started 9428
+2019-08-18 20:35:48 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-18 20:35:48 - Started 13188
+2019-08-18 20:36:10 - Stopping nastybot.exe
+2019-08-18 20:36:10 - ProcessKill 13188
+2019-08-18 20:36:11 - Found child process: 4280 Name: node.exe
+2019-08-18 20:36:11 - Stopping process 4280
+2019-08-18 20:36:11 - Send SIGINT 4280
+2019-08-18 20:36:11 - SIGINT to 4280 failed - Killing as fallback
+2019-08-18 20:36:11 - Stopping process 13188
+2019-08-18 20:36:11 - Send SIGINT 13188
+2019-08-18 20:36:11 - SIGINT to13188 successful
+2019-08-18 20:36:11 - Finished nastybot.exe
+2019-08-22 09:17:25 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-22 09:17:25 - Started 9900
+2019-08-22 10:50:42 - Stopping nastybot.exe
+2019-08-22 10:50:42 - ProcessKill 9900
+2019-08-22 10:50:42 - Found child process: 10324 Name: node.exe
+2019-08-22 10:50:42 - Stopping process 10324
+2019-08-22 10:50:42 - Send SIGINT 10324
+2019-08-22 10:50:42 - SIGINT to 10324 failed - Killing as fallback
+2019-08-22 10:50:42 - Stopping process 9900
+2019-08-22 10:50:42 - Send SIGINT 9900
+2019-08-22 10:50:42 - SIGINT to9900 successful
+2019-08-22 10:50:42 - Finished nastybot.exe
+2019-08-22 10:50:43 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-22 10:50:43 - Started 6184
+2019-08-22 11:38:14 - Stopping nastybot.exe
+2019-08-22 11:38:14 - ProcessKill 6184
+2019-08-22 11:38:14 - Found child process: 5324 Name: CCleaner64.exe
+2019-08-22 11:38:14 - Found child process: 1532 Name: node.exe
+2019-08-22 11:38:14 - Stopping process 5324
+2019-08-22 11:38:14 - Send SIGINT 5324
+2019-08-22 11:38:14 - SIGINT to 5324 failed - Killing as fallback
+2019-08-22 11:38:14 - Stopping process 1532
+2019-08-22 11:38:14 - Send SIGINT 1532
+2019-08-22 11:38:14 - SIGINT to 1532 failed - Killing as fallback
+2019-08-22 11:38:14 - Stopping process 6184
+2019-08-22 11:38:14 - Send SIGINT 6184
+2019-08-22 11:38:14 - SIGINT to6184 successful
+2019-08-22 11:38:14 - Finished nastybot.exe
+2019-08-22 14:34:49 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-22 14:34:49 - Started 7980
+2019-08-22 16:06:27 - Stopping nastybot.exe
+2019-08-22 16:06:27 - ProcessKill 7980
+2019-08-22 16:06:27 - Shutdown exception
+Message:Invalid query 
+Stacktrace:   at System.Management.ManagementException.ThrowWithExtendedInfo(ManagementStatus errorCode)
+   at System.Management.ManagementObjectCollection.ManagementObjectEnumerator.MoveNext()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2019-08-22 16:09:00 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-22 16:09:00 - Started 8784
+2019-08-22 16:13:06 - Stopping nastybot.exe
+2019-08-22 16:13:06 - ProcessKill 8784
+2019-08-22 16:13:06 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2019-08-22 16:15:35 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-22 16:15:35 - Started 6840
+2019-08-22 16:44:57 - Stopping nastybot.exe
+2019-08-22 16:44:57 - ProcessKill 6840
+2019-08-22 16:44:57 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2019-08-22 16:47:30 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-22 16:47:30 - Started 5736
+2019-08-23 17:51:36 - Stopping nastybot.exe
+2019-08-23 17:51:36 - ProcessKill 5736
+2019-08-23 17:51:36 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2019-08-23 17:54:03 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-23 17:54:03 - Started 6932
+2019-08-23 22:17:50 - Stopping nastybot.exe
+2019-08-23 22:17:50 - ProcessKill 6932
+2019-08-23 22:17:50 - Found child process: 4324 Name: node.exe
+2019-08-23 22:17:50 - Stopping process 4324
+2019-08-23 22:17:50 - Send SIGINT 4324
+2019-08-23 22:17:50 - SIGINT to 4324 failed - Killing as fallback
+2019-08-23 22:17:50 - Stopping process 6932
+2019-08-23 22:17:50 - Send SIGINT 6932
+2019-08-23 22:17:50 - SIGINT to6932 successful
+2019-08-23 22:17:50 - Finished nastybot.exe
+2019-08-23 22:17:51 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-23 22:17:51 - Started 7368
+2019-08-26 10:59:10 - Stopping nastybot.exe
+2019-08-26 10:59:10 - ProcessKill 7368
+2019-08-26 10:59:10 - Found child process: 10448 Name: node.exe
+2019-08-26 10:59:10 - Stopping process 10448
+2019-08-26 10:59:10 - Send SIGINT 10448
+2019-08-26 10:59:10 - SIGINT to 10448 failed - Killing as fallback
+2019-08-26 10:59:10 - Stopping process 7368
+2019-08-26 10:59:10 - Send SIGINT 7368
+2019-08-26 10:59:10 - SIGINT to7368 successful
+2019-08-26 10:59:10 - Finished nastybot.exe
+2019-08-26 10:59:12 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-26 10:59:12 - Started 7632
+2019-08-29 16:07:55 - Stopping nastybot.exe
+2019-08-29 16:07:55 - ProcessKill 7632
+2019-08-29 16:07:55 - Found child process: 10836 Name: node.exe
+2019-08-29 16:07:55 - Stopping process 10836
+2019-08-29 16:07:55 - Send SIGINT 10836
+2019-08-29 16:07:55 - SIGINT to 10836 failed - Killing as fallback
+2019-08-29 16:07:55 - Stopping process 7632
+2019-08-29 16:07:55 - Send SIGINT 7632
+2019-08-29 16:07:55 - SIGINT to7632 successful
+2019-08-29 16:07:55 - Finished nastybot.exe
+2019-08-29 16:07:58 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\bots\nastybot\nastybot.js --log "nastybot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-29 16:07:58 - Started 9644

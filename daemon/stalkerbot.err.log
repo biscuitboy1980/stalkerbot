@@ -1,0 +1,688 @@
+C:\bots\nastybot\nastybot.js:699
+                        max = (files.length)                   
+                                     ^
+
+TypeError: Cannot read property 'length' of undefined
+    at fs.readdir (C:\bots\nastybot\nastybot.js:699:38)
+    at FSReqWrap.args [as oncomplete] (fs.js:140:20)
+C:\bots\nastybot\nastybot.js:699
+                        max = (files.length)                   
+                                     ^
+
+TypeError: Cannot read property 'length' of undefined
+    at fs.readdir (C:\bots\nastybot\nastybot.js:699:38)
+    at FSReqWrap.args [as oncomplete] (fs.js:140:20)
+C:\bots\nastybot\nastybot.js:699
+                        max = (files.length)                   
+                                     ^
+
+TypeError: Cannot read property 'length' of undefined
+    at fs.readdir (C:\bots\nastybot\nastybot.js:699:38)
+    at FSReqWrap.args [as oncomplete] (fs.js:140:20)
+C:\bots\nastybot\nastybot.js:699
+                        max = (files.length)                   
+                                     ^
+
+TypeError: Cannot read property 'length' of undefined
+    at fs.readdir (C:\bots\nastybot\nastybot.js:699:38)
+    at FSReqWrap.args [as oncomplete] (fs.js:140:20)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error [ERR_IPC_CHANNEL_CLOSED]: Channel closed
+    at ChildProcess.target.send (internal/child_process.js:636:16)
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)
+Emitted 'error' event at:
+    at process.nextTick (internal/child_process.js:640:35)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)
+C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)
+C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)
+C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)
+C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)
+C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)
+C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)
+C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)
+C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)
+C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)
+C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)
+events.js:189
+    throw err; // Unhandled 'error' event
+    ^
+
+Error [ERR_UNHANDLED_ERROR]: Unhandled error. (ErrorEvent {
+  target:
+   WebSocket {
+     _events:
+      [Object: null prototype] {
+        message: [Function],
+        open: [Function],
+        error: [Function],
+        close: [Function] },
+     _eventsCount: 4,
+     _maxListeners: undefined,
+     readyState: 2,
+     protocol: '',
+     _binaryType: 'nodebuffer',
+     _closeFrameReceived: false,
+     _closeFrameSent: false,
+     _closeMessage: '',
+     _closeTimer: null,
+     _closeCode: 1006,
+     _extensions: {},
+     _receiver: null,
+     _sender: null,
+     _socket: null,
+     _isServer: false,
+     _redirects: 0,
+     url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+     _req: null },
+  type: 'error',
+  message:
+   'getaddrinfo ENOTFOUND gateway.discord.gg gateway.discord.gg:443',
+  error:
+   { Error: getaddrinfo ENOTFOUND gateway.discord.gg gateway.discord.gg:443
+       at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+     errno: 'ENOTFOUND',
+     code: 'ENOTFOUND',
+     syscall: 'getaddrinfo',
+     hostname: 'gateway.discord.gg',
+     host: 'gateway.discord.gg',
+     port: 443 } })
+    at Client.emit (events.js:187:17)
+    at WebSocketConnection.onError (C:\bots\nastybot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:374:17)
+    at WebSocket.onError (C:\bots\nastybot\node_modules\ws\lib\event-target.js:128:16)
+    at WebSocket.emit (events.js:198:13)
+    at ClientRequest.req.on (C:\bots\nastybot\node_modules\ws\lib\websocket.js:568:15)
+    at ClientRequest.emit (events.js:198:13)
+    at TLSSocket.socketErrorListener (_http_client.js:392:9)
+    at TLSSocket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+(node:1804) UnhandledPromiseRejectionWarning: Error: getaddrinfo ENOTFOUND discordapp.com discordapp.com:443
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+(node:1804) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:1804) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)
+C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)
+C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)
+(node:2572) UnhandledPromiseRejectionWarning: Error: getaddrinfo ENOTFOUND discordapp.com discordapp.com:443
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+(node:2572) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:2572) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)
+(node:2712) UnhandledPromiseRejectionWarning: Error: ENOENT: no such file or directory, stat 'C:\bots\nastybot\gifs\gn\mf\4.gif'
+(node:2712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:2712) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:2712) UnhandledPromiseRejectionWarning: Error: ENOENT: no such file or directory, stat 'C:\bots\nastybot\gifs\gn\mf\4.gif'
+(node:2712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:2712) UnhandledPromiseRejectionWarning: Error: ENOENT: no such file or directory, stat 'C:\bots\nastybot\gifs\gn\mf\4.gif'
+(node:2712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+(node:2712) UnhandledPromiseRejectionWarning: Error: ENOENT: no such file or directory, stat 'C:\bots\nastybot\gifs\gn\mf\1.gif'
+(node:2712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 4)
+(node:2712) UnhandledPromiseRejectionWarning: Error: ENOENT: no such file or directory, stat 'C:\bots\nastybot\gifs\gn\mf\2.gif'
+(node:2712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 5)
+(node:2320) UnhandledPromiseRejectionWarning: Error: getaddrinfo ENOTFOUND discordapp.com discordapp.com:443
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+(node:2320) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:2320) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)
+C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)
+(node:2824) UnhandledPromiseRejectionWarning: Error: ENOENT: no such file or directory, stat 'C:\bots\nastybot\gifs\gn\mf\5.gif'
+(node:2824) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:2824) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+events.js:189
+    throw err; // Unhandled 'error' event
+    ^
+
+Error [ERR_UNHANDLED_ERROR]: Unhandled error. (ErrorEvent {
+  target:
+   WebSocket {
+     _events:
+      [Object: null prototype] {
+        message: [Function],
+        open: [Function],
+        error: [Function],
+        close: [Function] },
+     _eventsCount: 4,
+     _maxListeners: undefined,
+     readyState: 2,
+     protocol: '',
+     _binaryType: 'nodebuffer',
+     _closeFrameReceived: false,
+     _closeFrameSent: false,
+     _closeMessage: '',
+     _closeTimer: null,
+     _closeCode: 1006,
+     _extensions: {},
+     _receiver: null,
+     _sender: null,
+     _socket: null,
+     _isServer: false,
+     _redirects: 0,
+     url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+     _req: null },
+  type: 'error',
+  message:
+   'getaddrinfo ENOTFOUND gateway.discord.gg gateway.discord.gg:443',
+  error:
+   { Error: getaddrinfo ENOTFOUND gateway.discord.gg gateway.discord.gg:443
+       at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+     errno: 'ENOTFOUND',
+     code: 'ENOTFOUND',
+     syscall: 'getaddrinfo',
+     hostname: 'gateway.discord.gg',
+     host: 'gateway.discord.gg',
+     port: 443 } })
+    at Client.emit (events.js:187:17)
+    at WebSocketConnection.onError (C:\bots\nastybot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:374:17)
+    at WebSocket.onError (C:\bots\nastybot\node_modules\ws\lib\event-target.js:128:16)
+    at WebSocket.emit (events.js:198:13)
+    at ClientRequest.req.on (C:\bots\nastybot\node_modules\ws\lib\websocket.js:568:15)
+    at ClientRequest.emit (events.js:198:13)
+    at TLSSocket.socketErrorListener (_http_client.js:392:9)
+    at TLSSocket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+(node:8816) UnhandledPromiseRejectionWarning: Error: getaddrinfo ENOTFOUND discordapp.com discordapp.com:443
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+(node:8816) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:8816) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)
+C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)
+C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)
+C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)
+C:\bots\nastybot\nastybot.js:131
+                    else if (message.member.roles.some(role => role.name === 'male') && (message.member.id === "583330770769149953"){
+                                                                                                                                    ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:721:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+C:\bots\nastybot\nastybot.js:131
+                    else if (message.member.roles.some(role => role.name === 'male') && (message.member.id === "583330770769149953"){
+                                                                                                                                    ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:721:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+C:\bots\nastybot\nastybot.js:131
+                    else if (message.member.roles.some(role => role.name === 'male') && (message.member.id === "583330770769149953"){
+                                                                                                                                    ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:721:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)
+    at process.exit (internal/process/per_thread.js:168:15)
+    at monitor (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:99:17)
+    at ChildProcess.<anonymous> (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:170:5)
+    at ChildProcess.emit (events.js:198:13)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:248:12)
+C:\bots\nastybot\nastybot.js:131
+                    else if (message.member.roles.some(role => role.name === 'male') && (message.member.id === "583330770769149953"){
+                                                                                                                                    ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:721:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+C:\bots\nastybot\nastybot.js:131
+                    else if (message.member.roles.some(role => role.name === 'male') && (message.member.id === "583330770769149953"){
+                                                                                                                                    ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:721:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+C:\bots\nastybot\nastybot.js:131
+                    else if (message.member.roles.some(role => role.name === 'male') && (message.member.id === "583330770769149953"){
+                                                                                                                                    ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:721:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)
+    at process.exit (internal/process/per_thread.js:168:15)
+    at monitor (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:99:17)
+    at ChildProcess.<anonymous> (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:170:5)
+    at ChildProcess.emit (events.js:198:13)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:248:12)
+C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)
+events.js:189
+    throw err; // Unhandled 'error' event
+    ^
+
+Error [ERR_UNHANDLED_ERROR]: Unhandled error. (ErrorEvent {
+  target:
+   WebSocket {
+     _events:
+      [Object: null prototype] {
+        message: [Function],
+        open: [Function],
+        error: [Function],
+        close: [Function] },
+     _eventsCount: 4,
+     _maxListeners: undefined,
+     readyState: 2,
+     protocol: '',
+     _binaryType: 'nodebuffer',
+     _closeFrameReceived: false,
+     _closeFrameSent: false,
+     _closeMessage: '',
+     _closeTimer: null,
+     _closeCode: 1006,
+     _extensions: {},
+     _receiver: null,
+     _sender: null,
+     _socket: null,
+     _isServer: false,
+     _redirects: 0,
+     url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+     _req: null },
+  type: 'error',
+  message:
+   'getaddrinfo ENOTFOUND gateway.discord.gg gateway.discord.gg:443',
+  error:
+   { Error: getaddrinfo ENOTFOUND gateway.discord.gg gateway.discord.gg:443
+       at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+     errno: 'ENOTFOUND',
+     code: 'ENOTFOUND',
+     syscall: 'getaddrinfo',
+     hostname: 'gateway.discord.gg',
+     host: 'gateway.discord.gg',
+     port: 443 } })
+    at Client.emit (events.js:187:17)
+    at WebSocketConnection.onError (C:\bots\nastybot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:374:17)
+    at WebSocket.onError (C:\bots\nastybot\node_modules\ws\lib\event-target.js:128:16)
+    at WebSocket.emit (events.js:198:13)
+    at ClientRequest.req.on (C:\bots\nastybot\node_modules\ws\lib\websocket.js:568:15)
+    at ClientRequest.emit (events.js:198:13)
+    at TLSSocket.socketErrorListener (_http_client.js:392:9)
+    at TLSSocket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+(node:10324) UnhandledPromiseRejectionWarning: Error: getaddrinfo ENOTFOUND discordapp.com discordapp.com:443
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+(node:10324) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:10324) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)
+events.js:189
+    throw err; // Unhandled 'error' event
+    ^
+
+Error [ERR_UNHANDLED_ERROR]: Unhandled error. (ErrorEvent {
+  target:
+   WebSocket {
+     _events:
+      [Object: null prototype] {
+        message: [Function],
+        open: [Function],
+        error: [Function],
+        close: [Function] },
+     _eventsCount: 4,
+     _maxListeners: undefined,
+     readyState: 2,
+     protocol: '',
+     _binaryType: 'nodebuffer',
+     _closeFrameReceived: false,
+     _closeFrameSent: false,
+     _closeMessage: '',
+     _closeTimer: null,
+     _closeCode: 1006,
+     _extensions: {},
+     _receiver: null,
+     _sender: null,
+     _socket: null,
+     _isServer: false,
+     _redirects: 0,
+     url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+     _req: null },
+  type: 'error',
+  message:
+   'getaddrinfo ENOTFOUND gateway.discord.gg gateway.discord.gg:443',
+  error:
+   { Error: getaddrinfo ENOTFOUND gateway.discord.gg gateway.discord.gg:443
+       at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+     errno: 'ENOTFOUND',
+     code: 'ENOTFOUND',
+     syscall: 'getaddrinfo',
+     hostname: 'gateway.discord.gg',
+     host: 'gateway.discord.gg',
+     port: 443 } })
+    at Client.emit (events.js:187:17)
+    at WebSocketConnection.onError (C:\bots\nastybot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:374:17)
+    at WebSocket.onError (C:\bots\nastybot\node_modules\ws\lib\event-target.js:128:16)
+    at WebSocket.emit (events.js:198:13)
+    at ClientRequest.req.on (C:\bots\nastybot\node_modules\ws\lib\websocket.js:568:15)
+    at ClientRequest.emit (events.js:198:13)
+    at TLSSocket.socketErrorListener (_http_client.js:392:9)
+    at TLSSocket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+(node:1532) UnhandledPromiseRejectionWarning: Error: getaddrinfo ENOTFOUND discordapp.com discordapp.com:443
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+(node:1532) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:1532) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)
+events.js:189
+    throw err; // Unhandled 'error' event
+    ^
+
+Error [ERR_UNHANDLED_ERROR]: Unhandled error. (ErrorEvent {
+  target:
+   WebSocket {
+     _events:
+      [Object: null prototype] {
+        message: [Function],
+        open: [Function],
+        error: [Function],
+        close: [Function] },
+     _eventsCount: 4,
+     _maxListeners: undefined,
+     readyState: 2,
+     protocol: '',
+     _binaryType: 'nodebuffer',
+     _closeFrameReceived: false,
+     _closeFrameSent: false,
+     _closeMessage: '',
+     _closeTimer: null,
+     _closeCode: 1006,
+     _extensions: {},
+     _receiver: null,
+     _sender: null,
+     _socket: null,
+     _isServer: false,
+     _redirects: 0,
+     url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+     _req: null },
+  type: 'error',
+  message: 'connect ETIMEDOUT 162.159.133.234:443',
+  error:
+   { Error: connect ETIMEDOUT 162.159.133.234:443
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+     errno: 'ETIMEDOUT',
+     code: 'ETIMEDOUT',
+     syscall: 'connect',
+     address: '162.159.133.234',
+     port: 443 } })
+    at Client.emit (events.js:187:17)
+    at WebSocketConnection.onError (C:\bots\nastybot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:374:17)
+    at WebSocket.onError (C:\bots\nastybot\node_modules\ws\lib\event-target.js:128:16)
+    at WebSocket.emit (events.js:198:13)
+    at ClientRequest.req.on (C:\bots\nastybot\node_modules\ws\lib\websocket.js:568:15)
+    at ClientRequest.emit (events.js:198:13)
+    at TLSSocket.socketErrorListener (_http_client.js:392:9)
+    at TLSSocket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)
+(node:9704) UnhandledPromiseRejectionWarning: Error: read ECONNRESET
+    at TLSWrap.onStreamRead (internal/stream_base_commons.js:111:27)
+(node:9704) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:9704) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+events.js:189
+    throw err; // Unhandled 'error' event
+    ^
+
+Error [ERR_UNHANDLED_ERROR]: Unhandled error. (ErrorEvent {
+  target:
+   WebSocket {
+     _events:
+      [Object: null prototype] {
+        message: [Function],
+        open: [Function],
+        error: [Function],
+        close: [Function] },
+     _eventsCount: 4,
+     _maxListeners: undefined,
+     readyState: 2,
+     protocol: '',
+     _binaryType: 'nodebuffer',
+     _closeFrameReceived: false,
+     _closeFrameSent: false,
+     _closeMessage: '',
+     _closeTimer: null,
+     _closeCode: 1006,
+     _extensions: {},
+     _receiver: null,
+     _sender: null,
+     _socket: null,
+     _isServer: false,
+     _redirects: 0,
+     url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+     _req: null },
+  type: 'error',
+  message:
+   'getaddrinfo ENOTFOUND gateway.discord.gg gateway.discord.gg:443',
+  error:
+   { Error: getaddrinfo ENOTFOUND gateway.discord.gg gateway.discord.gg:443
+       at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+     errno: 'ENOTFOUND',
+     code: 'ENOTFOUND',
+     syscall: 'getaddrinfo',
+     hostname: 'gateway.discord.gg',
+     host: 'gateway.discord.gg',
+     port: 443 } })
+    at Client.emit (events.js:187:17)
+    at WebSocketConnection.onError (C:\bots\nastybot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:374:17)
+    at WebSocket.onError (C:\bots\nastybot\node_modules\ws\lib\event-target.js:128:16)
+    at WebSocket.emit (events.js:198:13)
+    at ClientRequest.req.on (C:\bots\nastybot\node_modules\ws\lib\websocket.js:568:15)
+    at ClientRequest.emit (events.js:198:13)
+    at TLSSocket.socketErrorListener (_http_client.js:392:9)
+    at TLSSocket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)
+C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Geoff\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:198:13)

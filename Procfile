@@ -1,1 +1,1 @@
-worker: node nastybot.js
+worker: node stalkerbot.js

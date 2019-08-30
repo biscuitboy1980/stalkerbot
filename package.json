@@ -1,8 +1,8 @@
 {
-  "name": "nastybot",
+  "name": "stalkerbot",
   "version": "1.0.0",
-  "description": "nastybot",
-  "main": "nastybot.js",
+  "description": "stalkerbot",
+  "main": "stalkerbot.js",
   "dependencies": {
     "discord.js": "^11.5.1"
   },
@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "nasty"
+    "stalker"
   ],
   "author": "-charger-",
   "license": "ISC"
