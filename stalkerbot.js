@@ -24,7 +24,6 @@ client.on('message', message => {
             message.author.send('_```Stalkerbot stores locations of players on K402 \n\nPrefix = &\n\nUsage &help\n\nAvailable commands:\nhelp, \nadd - adds a user to track (usage: add clan, player name, xpos, ypos\nall - lists all players currently being tracked \nclan - lists all members being tracked for specified clan (usage: clan <clan name>) \ndel - deletes a player from tracking (usage: del <player name>) \nsearch - searches tracked players by name (usage: search <player name>)```_')
         }
 
-
         if(command == 'clan'){
 
           const clan = args;
@@ -53,30 +52,47 @@ client.on('message', message => {
 
         }  
 
-        if(command == 'add'){
+        if(command == 'add'){     
 
-          const arr = args;
-          arr
-          console.log(arr);
-          console.log(arr[0]);
-          console.log(arr[1]);
-          console.log(arr[2]);
-          console.log(arr[3]);
+          const arr = args;   
 
-              CSVToJSON().fromFile("./locations.csv").then(source => {
+              if (arr[0] == undefined) {
+                message.channel.send("You must enter a valid clan name no more than 5 characters. i.e. alpha, use &all to see examples")
+                return;
+              }
 
-              source.push({
-                "clan": arr[0],
-                "name": arr[1],
-                "xpos": arr[2],
-                "ypos": arr[3]
-              });
-            
-              const csv = JSONToCSV(source, { fields: ["clan", "name", "xpos", "ypos"] })
-              fs.writeFileSync("./locations.csv", csv);
-              message.channel.send('_```Stalkerbot has updated the list with: \n\n' + arr[0] + ', ' + arr[1] + ', ' + arr[2] + ', ' + arr[3] + '```_');
+              else if (arr[1] == undefined) {
+                message.channel.send("You must enter a valid player name.  Do not use special characters or anything just use regular a-z 0-9 characters, use &all to see examples")
+                return;
+              }
 
-              })
+              else if (arr[2] == undefined) {
+                message.channel.send("You must enter a valid x position. i.e. x1111, use &all to see examples")
+                return;
+              }
+
+              else if (arr[3] == undefined) {
+                message.channel.send("You must enter a valid y position. i.e. y1111, use &all to see examples")
+                return;
+              }
+
+              else {
+
+                CSVToJSON().fromFile("./locations.csv").then(source => {
+
+                source.push({
+                  "clan": arr[0],
+                  "name": arr[1],
+                  "xpos": arr[2],
+                  "ypos": arr[3]
+                });
+              
+                const csv = JSONToCSV(source, { fields: ["clan", "name", "xpos", "ypos"] })
+                fs.writeFileSync("./locations.csv", csv);
+                message.channel.send('_```Stalkerbot has updated the list with: \n\n```' + '```css\n' + arr[0] + ', ' + arr[1] + ', ' + arr[2] + ', ' + arr[3] + '```_');
+  
+              })   
+            }   
         }        
 
         if(command == 'all'){
