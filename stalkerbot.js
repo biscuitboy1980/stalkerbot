@@ -87,7 +87,7 @@ client.on('message', message => {
         if(command == 'all'){
 
           CSVToJSON().fromFile("./locations.csv").then((source) => {
-            source.sort((a, b) => (a.clan > b.clan) ? 1 : -1);
+            source.sort((a, b) => (a.clan > b.clan)  ? 1 : -1);
             console.log(source);
             var alltext = source;
             alltext = JSON.stringify(alltext);
