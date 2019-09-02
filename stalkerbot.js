@@ -55,12 +55,7 @@ client.on('message', message => {
 
         if(command == 'add'){
 
-          // console.log(args);
           const arr = args;
-
-          // console.log(arr);
-          // arr = player.toString();
-          // arr.split(", ");
           arr
           console.log(arr);
           console.log(arr[0]);

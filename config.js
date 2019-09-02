@@ -1,3 +1,3 @@
-module.exports.token = "NjE2NzgxNjI4ODAyMzM0NzM1.XWxmaw.SZIvWre4A90JIMDQBZP4mQQwnNU";
+module.exports.token = "NjE2NzgxNjI4ODAyMzM0NzM1.XWxnaw.SdZlS1aW_iGKzoIl_xb2AXPbuJE";
 
 module.exports.prefix = "&";
