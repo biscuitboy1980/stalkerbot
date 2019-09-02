@@ -44,7 +44,6 @@ client.on('message', message => {
                     found = found.replace(/ypos:/g, "");
     
                     console.log(clan);
-                    // message.channel.send('_```\n\n' + found + '```_');
                     message.channel.send('_```-------------' + clan.toString().toUpperCase() + '------------- \n\n' + found + '```_');
                     return(found);
                   
@@ -80,16 +79,25 @@ client.on('message', message => {
 
                 CSVToJSON().fromFile("./locations.csv").then(source => {
 
+                var clan = JSON.stringify(arr[0]);
+                var name = JSON.stringify(arr[1]);
+                var xpos = JSON.stringify(arr[2]);
+                var ypos = JSON.stringify(arr[3]);
+                clan = clan.replace(/,/g,'').replace(/"/g, "");
+                name = name.replace(/,/g,'').replace(/"/g, "");
+                xpos = xpos.replace(/,/g,'').replace(/"/g, "");
+                ypos = ypos.replace(/,/g,'').replace(/"/g, "");
+
                 source.push({
-                  "clan": arr[0],
-                  "name": arr[1],
-                  "xpos": arr[2],
-                  "ypos": arr[3]
+                  "clan": clan,
+                  "name": name,
+                  "xpos": xpos,
+                  "ypos": ypos
                 });
               
                 const csv = JSONToCSV(source, { fields: ["clan", "name", "xpos", "ypos"] })
                 fs.writeFileSync("./locations.csv", csv);
-                message.channel.send('_```Stalkerbot has updated the list with: \n\n```' + '```css\n' + arr[0] + ', ' + arr[1] + ', ' + arr[2] + ', ' + arr[3] + '```_');
+                message.channel.send('_```Stalkerbot has updated the list with: \n\n' + clan + ', ' + name + ', ' + xpos + ', ' + ypos + '```_');
   
               })   
             }   
@@ -112,30 +120,26 @@ client.on('message', message => {
 
         if(command == 'search'){
 
-                const user = args.toString();
+          const user = args;
+          var regex = new RegExp(user, "g");
+          
+          CSVToJSON().fromFile("./locations.csv").then(source => {
+              var found = source.filter(function(v, i){
+              return ((v["name"].match(regex)));
+            })              
 
-                CSVToJSON().fromFile("./locations.csv").then(source => {
-                  var found = source.includes(source => source.name === user);
-
-                  if (found == undefined || found == false) {
-                    message.channel.send('Player not found, use add');
-                    return;
-                  }
-
-                  found = JSON.stringify(found);
-                  found = found.replace(/"/g, "");
-                  found = found.replace(/{/g, "");
-                  found = found.replace(/}/g, "");
-                  found = found.replace(/,/g, ", ");
-                  found = found.replace(/clan:/g, "");
-                  found = found.replace(/name:/g, "");
-                  found = found.replace(/xpos:/g, "");
-                  found = found.replace(/ypos:/g, "");
-
-                  message.channel.send(found);
-                  return(found);
-                
-                  });
+            if (found == undefined || found == false) {
+              message.channel.send('No records for that player were found, use add');
+              return;
+            }
+            found = JSON.stringify(found);
+            found = found.slice(2,-2);
+            found = found.replace(/},{/g,'\n');
+            found = found.replace(/"/g, "").replace(/{/g, "").replace(/}/g, "").replace(/,/g, ", ").replace(/clan:/g, "").replace(/name:/g, "").replace(/xpos:/g, "");
+            found = found.replace(/ypos:/g, "");
+    
+            message.channel.send('_```Player(s) Found\n\n' + found + '```_');
+            });
               
         }
     })
