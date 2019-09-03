@@ -132,38 +132,86 @@ client.on('message', message => {
 
         if(command == 'del'){
 
-          const user = args;
+          var user = args.toString();
 
           if (args.length == 0) {
             return message.channel.send("You must enter a player name to delete");;
           }
+          CSVToJSON().fromFile("./locations.csv").then(data => {
+            console.log(user);
+            const index = data.findIndex(obj => obj.name === user);
+            console.log(index);
+            const newData = [
+                ...data.slice(0, index),
+                ...data.slice(index + 1)
+            ]
+            console.log(newData);
+            return(newData);
+          })  
+
+
           
-          CSVToJSON().fromFile("./locations.csv").then(source => {
-            let linesExceptFirst = source.toString().split('\n').slice(1);
-            // Turn that into a data structure we can parse (array of arrays)
-            let linesArr = linesExceptFirst.map(line=>line.split(','));
-            // Use filter to find the matching ID then return only those that don't matching
-            // deleting the found match
-            // Join then into a string with new lines
-            let output = linesArr.filter(line=>parseInt(line[0]) !== idToSearchFor).join("\n");
+
+
+
+          // CSVToJSON().fromFile("./locations.csv").then(source => {
+          //   var found = source.filter(function(v, i){
+          //   return ((v["name"].match(user)));
+          // })     
+          // console.log(found);
+          // var line = Object.keys(user).indexOf(found);
+          // console.log(line);
+          // removed = source.splice(line, 1);
+          // console.log(removed);  
+          // console.log(source); 
+          // var key = "clan";
+          // var index = Object.keys(source).indexOf(["name"].match("fucker"));
+          // console.log(index);
+          // return index;
+          // console.log(source);
+
+
+          // if (newData == undefined || found == false) {
+          //   message.channel.send('No records for that player were found, use add');
+          //   return;
+          // }
+        // });
+      }
+          
+
+
+          // CSVToJSON().fromFile("./locations.csv").then(source => {
+            // var idToSearchFor = "fucker";
+            // // read the file
+            // fs.readFile('./locations.csv', 'utf8', function(err, data)
+            // {
+            //     if (err)
+            //     {
+            //         // check and handle err
+            //     }
+            //     // Get an array of comma separated lines`
+            //     let lines = data.split('\n').slice(0);
+            //     // Turn that into a data structure we can parse (array of arrays)
+            //     let linesArr = lines.map(line=>line.split(','));
+            //     // Use filter to find the matching ID then return only those that don't matching
+            //     // deleting the found match
+            //     // Join then into a string with new lines
+            //     let output = linesArr.filter(line=>parseInt(line[0]) !== idToSearchFor).join("\n");
+            //     // Write out new file
+            //     fs.writeFileSync('new.csv', output);
+            // });
               // var found = source.find(function(v, i){
               //  return ((v["name"] == user));
             // }) 
-            
-
-            // Write out new file
-            fs.writeFileSync('new.csv', output);
 
 
-            if (found == undefined || found == false) {
-              message.channel.send('No player with that name found to delete, try &search');
-              return;
-            }
+            // if (found == undefined || found == false) {
+            //   message.channel.send('No player with that name found to delete, try &search');
+            //   return;
+            // }
                 
-            message.channel.send('_```Deleted player ' + found + '```_');
-            });
-
-        }
+            // message.channel.send('_```Deleted player ' + found + '```_');
+            // });
 
         if(command == 'keep'){
 
