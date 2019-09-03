@@ -24,32 +24,52 @@ client.on('message', message => {
             message.author.send('_```Stalkerbot stores locations of players on K402 \n\nPrefix = &\n\nUsage &help\n\nAvailable commands:\nhelp, \nadd - adds a user to track (usage: add clan, player name, keep level, xpos, ypos\nall - lists all players currently being tracked \nclan - lists all members being tracked for specified clan (usage: clan <clan name>) \ndel - deletes a player from tracking (usage: del <player name>) \nplayer - searches tracked players by name (usage: search <player name>)```_')
         }
 
-        if(command == 'add'){     
+        if(command == 'add'){          
 
         arr = args.toString();
-        arr = arr.split(',,');           
+        arr = arr.split(',,');
+        var clan = JSON.stringify(arr[0]);
+        var name = JSON.stringify(arr[1]);
+        var keep = JSON.stringify(arr[2]);
+        var xpos = JSON.stringify(arr[3]);
+        var ypos = JSON.stringify(arr[4]);
+        clan = clan.toLowerCase().replace(/,/g,'').replace(/"/g, "");
+        name = name.toLowerCase().replace(/,/g,' ').replace(/"/g, "");
+        keep = keep.toLowerCase().replace(/,/g,'').replace(/"/g, "");
+        xpos = xpos.toLowerCase().replace(/,/g,'').replace(/"/g, "");
+        ypos = ypos.toLowerCase().replace(/,/g,'').replace(/"/g, "");
 
-              if (arr[0] == undefined) {
+        console.log(name);
+
+        var validClan = (/^([a-z0-9]){3,5}$/.test(clan));
+        var validName = (/^([a-z0-9_ ]){3,15}$/.test(name));
+        var validKeep = (/^[k]\d{1,2}$/.test(keep));
+        var validXpos = (/^[x]\d{1,4}$/.test(xpos));
+        var validYpos = (/^[y]\d{1,4}$/.test(ypos));
+
+        console.log(validName);
+
+              if (arr[0] == undefined || validClan == false) {
                 message.channel.send("You must enter a valid clan name no more than 5 characters. i.e. alpha, use &all to see examples")
                 return;
               }
 
-              else if (arr[1] == undefined) {
-                message.channel.send("You must enter a valid player name.  Do not use special characters or anything just use regular a-z 0-9 characters, use &all to see examples")
+              else if (arr[1] == undefined || validName == false) {
+                message.channel.send("You must enter a valid player name.  Use only alphanumeric characters and must be under 15 characters. Use &all to see examples")
                 return;
               }
 
-              else if (arr[2] == undefined) {
+              else if (arr[2] == undefined || validKeep == false)  {
                 message.channel.send("You must enter a valid Keep level. i.e. k15, use &all to see examples")
                 return;
               }
 
-              else if (arr[3] == undefined) {
+              else if (arr[3] == undefined || validXpos == false) {
                 message.channel.send("You must enter a valid x position. i.e. x1111, use &all to see examples")
                 return;
               }
 
-              else if (arr[4] == undefined) {
+              else if (arr[4] == undefined || validYpos == false) {
                 message.channel.send("You must enter a valid y position. i.e. y1111, use &all to see examples")
                 return;
               }
@@ -57,17 +77,6 @@ client.on('message', message => {
               else {
 
                 CSVToJSON().fromFile("./locations.csv").then(source => {
-
-                var clan = JSON.stringify(arr[0]);
-                var name = JSON.stringify(arr[1]);
-                var keep = JSON.stringify(arr[2]);
-                var xpos = JSON.stringify(arr[3]);
-                var ypos = JSON.stringify(arr[4]);
-                clan = clan.replace(/,/g,'').replace(/"/g, "");
-                name = name.replace(/,/g,' ').replace(/"/g, "");
-                keep = keep.replace(/,/g,'').replace(/"/g, "");
-                xpos = xpos.replace(/,/g,'').replace(/"/g, "");
-                ypos = ypos.replace(/,/g,'').replace(/"/g, "");
 
                 const timestamp = new Date();
                 source.push({
@@ -122,7 +131,6 @@ client.on('message', message => {
                     found = found.replace(/"/g, "").replace(/{/g, "").replace(/}/g, "").replace(/,/g, ", ").replace(/clan:/g, "").replace(/name:/g, "").replace(/keep:/g, "").replace(/xpos:/g, "");
                     found = found.replace(/ypos:/g, "");
     
-                    console.log(clan);
                     message.channel.send('_```-------------' + clan.toString().toUpperCase() + '------------- \n\n' + found + '```_');
                     return(found);
                   
