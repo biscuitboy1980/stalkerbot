@@ -5,6 +5,7 @@ const CSVToJSON = require('csvtojson');
 const JSONToCSV = require('json2csv').parse;
 const OBJToCSV = require('objects-to-csv')
 const fs = require('fs');
+const moment = require('moment');
 const path = 'C:/bots/stalkerbot';
 
 
@@ -20,7 +21,8 @@ async function writeCSV(data) {
 }
 
 function getDate() {
-  return new Date();
+  var CurrentDate = moment().format("DD/MM/YYYY HH:mm:ss");
+  return CurrentDate;
 } 
 
 client.once('ready', () => {
@@ -38,6 +40,22 @@ client.on('message', message => {
         if(message.content.startsWith(`${prefix}help`)){ 
 
             message.author.send('_```Stalkerbot stores locations of players on K402 \n\nPrefix = &\n\nUsage &help\n\nAvailable commands:\nhelp, \nadd - adds a user to track (usage: add clan, player name, keep level, xpos, ypos\nall - lists all players currently being tracked \nclan - lists all members being tracked for specified clan (usage: clan <clan name>) \ndel - deletes a player from tracking (usage: del <player name>) \nsearch - searches tracked players by name (usage: search <player name>)```_')
+        }
+
+
+        if(command == 'date'){
+
+            CSVToJSON().fromFile("./locations.csv").then(source => {
+              var found = source.filter(function(v, i){
+              return ((v["name"].match("bacardi")));
+            })  
+            var foundTime = found[0].date.toString();
+            console.log(foundTime);
+            var start = moment().format("DD/MM/YYYY HH:mm:ss");
+            console.log(start);
+            var spent = moment.utc(moment(start,"DD/MM/YYYY HH:mm:ss").diff(moment(foundTime,"DD/MM/YYYY HH:mm:ss"))).format("HH:mm:ss");
+            console.log(spent);
+          })
         }
 
         if(command == 'add'){          
