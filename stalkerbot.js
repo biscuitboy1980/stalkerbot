@@ -19,6 +19,9 @@ async function writeCSV(data) {
   console.log(result);
 }
 
+function getDate() {
+  return new Date();
+} 
 
 client.once('ready', () => {
     console.log(`${client.user.tag} is online`)
@@ -88,10 +91,10 @@ client.on('message', message => {
 
               CSVToJSON().fromFile("./locations.csv").then(source => {
                 var index = source.findIndex(obj => obj.name === name);
-                console.log(index);
+                // console.log(index);
                 if (index == "-1") {
-                  var date = new Date();
-                  console.log(date);
+                  var date = getDate();
+                  // console.log(date);
                   // const newData = [clan, name, keep, xpos, ypos];
                   var newData = [
                     clan,
@@ -101,10 +104,10 @@ client.on('message', message => {
                     ypos,
                     date
                   ];
-                  console.log(newData);
+                  // console.log(newData);
                   fs.appendFile('./locations.csv', '\n' + newData, function (err) {
                     if (err) throw err;
-                    console.log('Saved!');
+                    // console.log('Saved!');
                   });
                   message.channel.send('_```Stalkerbot has updated the list with: \n\n' + clan + ', ' + name + ', ' + keep + ', ' + xpos + ', ' + ypos + '```_');
                   return;
@@ -119,16 +122,17 @@ client.on('message', message => {
                   ]
                   console.log(removed);
                   
-                  var date = new Date();
+                  var date = getDate();
+                  console.log(date);
                   source.push({
                     "clan": clan,
                     "name": name,
                     "keep": keep,
                     "xpos": xpos,
                     "ypos": ypos,
-                    "date": date
+                    "date": date.toString()
                   });
-                  console.log(source);
+                  // console.log(source);
                   writeCSV(source);
                   message.channel.send('_```Stalkerbot has updated the list with: \n\n' + clan + ', ' + name + ', ' + keep + ', ' + xpos + ', ' + ypos + '```_');
                 }
