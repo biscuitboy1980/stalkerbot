@@ -3,6 +3,7 @@ const { token, prefix } = require('./config.js');
 const client = new Discord.Client();
 const CSVToJSON = require('csvtojson');
 const JSONToCSV = require('json2csv').parse;
+const OBJToCSV = require('objects-to-csv')
 const fs = require('fs');
 const path = 'C:/bots/stalkerbot';
 
@@ -140,43 +141,39 @@ client.on('message', message => {
 
         if(command == 'del'){
 
-          var user = args.toString();
-
           if (args.length == 0) {
             return message.channel.send("You must enter a player name to delete");;
           }
-          CSVToJSON().fromFile("./locations.csv").then(data => {
-            console.log(user);
-            const index = data.findIndex(obj => obj.name === user);
+
+          var user = args.toString();
+          user = user.toLowerCase().replace(/,/g,' ');
+    
+          CSVToJSON().fromFile("./locations.csv").then(source => {
+            var index = source.findIndex(obj => obj.name === user);
+            if (index == "-1") {
+              message.channel.send('_```No player named ' + user + ' was found, try &search```_');
+              return;
+            }
             console.log(index);
-            const newData = [
-                ...data.slice(0, index),
-                ...data.slice(index + 1)
+            var newData = [
+                ...source.slice(0, index),
+                ...source.slice(index + 1)
             ]
-            console.log(newData);
-            return(newData);
+            
+            async function writeCSV() {
+              const csv = new OBJToCSV(newData);
+              await csv.toDisk('./locations.csv');
+            }
+
+            writeCSV();
+
+            message.channel.send('_```' + user + ' was deleted successfully.```_');
+            return;
+
           })  
+    
 
-
-          
-
-
-
-          // CSVToJSON().fromFile("./locations.csv").then(source => {
-          //   var found = source.filter(function(v, i){
-          //   return ((v["name"].match(user)));
-          // })     
-          // console.log(found);
-          // var line = Object.keys(user).indexOf(found);
-          // console.log(line);
-          // removed = source.splice(line, 1);
-          // console.log(removed);  
-          // console.log(source); 
-          // var key = "clan";
-          // var index = Object.keys(source).indexOf(["name"].match("fucker"));
-          // console.log(index);
-          // return index;
-          // console.log(source);
+        }
 
 
           // if (newData == undefined || found == false) {
@@ -184,10 +181,8 @@ client.on('message', message => {
           //   return;
           // }
         // });
-      }
+        // }
           
-
-
           // CSVToJSON().fromFile("./locations.csv").then(source => {
             // var idToSearchFor = "fucker";
             // // read the file
