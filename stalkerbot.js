@@ -60,7 +60,6 @@ client.on('message', message => {
         var validXpos = (/^[x]\d{1,4}$/.test(xpos));
         var validYpos = (/^[y]\d{1,4}$/.test(ypos));
 
-        console.log(validName);
 
               if (arr[0] == undefined || validClan == false) {
                 message.channel.send("You must enter a valid clan name no more than 5 characters. i.e. alpha, use &all to see examples")
@@ -89,46 +88,52 @@ client.on('message', message => {
 
               CSVToJSON().fromFile("./locations.csv").then(source => {
                 var index = source.findIndex(obj => obj.name === name);
+                console.log(index);
                 if (index == "-1") {
-                  console.log(index);
-                  return;
-                }
-                else if (index == true) {
-                  message.channel.send('_```Multiple players which one do you want to delete?');
-                  return;
-                }
-                else {
+                  var date = new Date();
+                  console.log(date);
+                  // const newData = [clan, name, keep, xpos, ypos];
                   var newData = [
-                      ...source.slice(0, index),
-                      ...source.slice(index + 1)
-                  ]
+                    clan,
+                    name,
+                    keep,
+                    xpos,
+                    ypos,
+                    date
+                  ];
                   console.log(newData);
-                  writeCSV(newData);
+                  fs.appendFile('./locations.csv', '\n' + newData, function (err) {
+                    if (err) throw err;
+                    console.log('Saved!');
+                  });
+                  message.channel.send('_```Stalkerbot has updated the list with: \n\n' + clan + ', ' + name + ', ' + keep + ', ' + xpos + ', ' + ypos + '```_');
+                  return;
+                }
+                // else if (index == true) {
+                //   message.channel.send('_```Multiple players which one do you want to delete?');
+                //   return;
+                // }
+                else {
+                  var removed = [
+                      ...source.splice(index, 1),
+                  ]
+                  console.log(removed);
+                  
+                  var date = new Date();
+                  source.push({
+                    "clan": clan,
+                    "name": name,
+                    "keep": keep,
+                    "xpos": xpos,
+                    "ypos": ypos,
+                    "date": date
+                  });
+                  console.log(source);
+                  writeCSV(source);
+                  message.channel.send('_```Stalkerbot has updated the list with: \n\n' + clan + ', ' + name + ', ' + keep + ', ' + xpos + ', ' + ypos + '```_');
                 }
               })
-                
-                
-                CSVToJSON().fromFile("./locations.csv").then(source => {
-
-                const timestamp = new Date();
-                source.push({
-                  "clan": clan,
-                  "name": name,
-                  "keep": keep,
-                  "xpos": xpos,
-                  "ypos": ypos,
-                  "date": timestamp
-                });
-
-                console.log(name);
-                var csv = JSONToCSV(source, [,], { fields: ["clan", "name", "keep", "xpos", "ypos", "date"] })
-                csv = csv.replace(/"/g, "");+
-                console.log(csv);
-                // fs.writeFileSync("./locations.csv", csv);
-                writeCSV(csv);
-                message.channel.send('_```Stalkerbot has updated the list with: \n\n' + clan + ', ' + name + ', ' + keep + ', ' + xpos + ', ' + ypos + '```_');
-  
-              })    
+                   
         }        
 
         if(command == 'all'){
