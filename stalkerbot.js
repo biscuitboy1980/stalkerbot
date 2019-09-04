@@ -8,6 +8,18 @@ const fs = require('fs');
 const path = 'C:/bots/stalkerbot';
 
 
+async function writeCSV(data) {
+  var csv = (await new OBJToCSV(data));
+  console.log(csv);
+  csv.toDisk('./locations.csv');
+  let promise = new Promise((resolve, reject) => {
+    setTimeout(() => resolve("done!"), 1000)
+  });
+  const result = await promise;
+  console.log(result);
+}
+
+
 client.once('ready', () => {
     console.log(`${client.user.tag} is online`)
     client.user.setActivity("watching K402")
@@ -22,25 +34,25 @@ client.on('message', message => {
 
         if(message.content.startsWith(`${prefix}help`)){ 
 
-            message.author.send('_```Stalkerbot stores locations of players on K402 \n\nPrefix = &\n\nUsage &help\n\nAvailable commands:\nhelp, \nadd - adds a user to track (usage: add clan, player name, keep level, xpos, ypos\nall - lists all players currently being tracked \nclan - lists all members being tracked for specified clan (usage: clan <clan name>) \ndel - deletes a player from tracking (usage: del <player name>) \nplayer - searches tracked players by name (usage: search <player name>)```_')
+            message.author.send('_```Stalkerbot stores locations of players on K402 \n\nPrefix = &\n\nUsage &help\n\nAvailable commands:\nhelp, \nadd - adds a user to track (usage: add clan, player name, keep level, xpos, ypos\nall - lists all players currently being tracked \nclan - lists all members being tracked for specified clan (usage: clan <clan name>) \ndel - deletes a player from tracking (usage: del <player name>) \nsearch - searches tracked players by name (usage: search <player name>)```_')
         }
 
         if(command == 'add'){          
 
         arr = args.toString();
         arr = arr.split(',,');
+
         var clan = JSON.stringify(arr[0]);
         var name = JSON.stringify(arr[1]);
         var keep = JSON.stringify(arr[2]);
         var xpos = JSON.stringify(arr[3]);
         var ypos = JSON.stringify(arr[4]);
+
         clan = clan.toLowerCase().replace(/,/g,'').replace(/"/g, "");
         name = name.toLowerCase().replace(/,/g,' ').replace(/"/g, "");
         keep = keep.toLowerCase().replace(/,/g,'').replace(/"/g, "");
         xpos = xpos.toLowerCase().replace(/,/g,'').replace(/"/g, "");
         ypos = ypos.toLowerCase().replace(/,/g,'').replace(/"/g, "");
-
-        console.log(name);
 
         var validClan = (/^([a-z0-9]){3,5}$/.test(clan));
         var validName = (/^([a-z0-9_ ]){3,15}$/.test(name));
@@ -75,8 +87,27 @@ client.on('message', message => {
                 return;
               }
 
-              else {
-
+              CSVToJSON().fromFile("./locations.csv").then(source => {
+                var index = source.findIndex(obj => obj.name === name);
+                if (index == "-1") {
+                  console.log(index);
+                  return;
+                }
+                else if (index == true) {
+                  message.channel.send('_```Multiple players which one do you want to delete?');
+                  return;
+                }
+                else {
+                  var newData = [
+                      ...source.slice(0, index),
+                      ...source.slice(index + 1)
+                  ]
+                  console.log(newData);
+                  writeCSV(newData);
+                }
+              })
+                
+                
                 CSVToJSON().fromFile("./locations.csv").then(source => {
 
                 const timestamp = new Date();
@@ -88,13 +119,16 @@ client.on('message', message => {
                   "ypos": ypos,
                   "date": timestamp
                 });
-              
-                const csv = JSONToCSV(source, { fields: ["clan", "name", "keep", "xpos", "ypos", "date"] })
-                fs.writeFileSync("./locations.csv", csv);
+
+                console.log(name);
+                var csv = JSONToCSV(source, [,], { fields: ["clan", "name", "keep", "xpos", "ypos", "date"] })
+                csv = csv.replace(/"/g, "");+
+                console.log(csv);
+                // fs.writeFileSync("./locations.csv", csv);
+                writeCSV(csv);
                 message.channel.send('_```Stalkerbot has updated the list with: \n\n' + clan + ', ' + name + ', ' + keep + ', ' + xpos + ', ' + ypos + '```_');
   
-              })   
-            }   
+              })    
         }        
 
         if(command == 'all'){
@@ -122,11 +156,13 @@ client.on('message', message => {
                       return ((v["clan"] == clan));
                     })              
     
-                    if (found == undefined) {
-                      message.channel.send('No records for that clan were found, use add');
+                    found = JSON.stringify(found);
+
+                    if (found == '[]') {
+                      message.channel.send('No records for clan named ' + clan + ' were found, use add');
                       return;
                     }
-                    found = JSON.stringify(found);
+
                     found = found.slice(2,-2);
                     found = found.replace(/},{/g,'\n');
                     found = found.replace(/"/g, "").replace(/{/g, "").replace(/}/g, "").replace(/,/g, ", ").replace(/clan:/g, "").replace(/name:/g, "").replace(/keep:/g, "").replace(/xpos:/g, "");
@@ -154,7 +190,6 @@ client.on('message', message => {
               message.channel.send('_```No player named ' + user + ' was found, try &search```_');
               return;
             }
-            console.log(index);
             var newData = [
                 ...source.slice(0, index),
                 ...source.slice(index + 1)
@@ -174,47 +209,6 @@ client.on('message', message => {
     
 
         }
-
-
-          // if (newData == undefined || found == false) {
-          //   message.channel.send('No records for that player were found, use add');
-          //   return;
-          // }
-        // });
-        // }
-          
-          // CSVToJSON().fromFile("./locations.csv").then(source => {
-            // var idToSearchFor = "fucker";
-            // // read the file
-            // fs.readFile('./locations.csv', 'utf8', function(err, data)
-            // {
-            //     if (err)
-            //     {
-            //         // check and handle err
-            //     }
-            //     // Get an array of comma separated lines`
-            //     let lines = data.split('\n').slice(0);
-            //     // Turn that into a data structure we can parse (array of arrays)
-            //     let linesArr = lines.map(line=>line.split(','));
-            //     // Use filter to find the matching ID then return only those that don't matching
-            //     // deleting the found match
-            //     // Join then into a string with new lines
-            //     let output = linesArr.filter(line=>parseInt(line[0]) !== idToSearchFor).join("\n");
-            //     // Write out new file
-            //     fs.writeFileSync('new.csv', output);
-            // });
-              // var found = source.find(function(v, i){
-              //  return ((v["name"] == user));
-            // }) 
-
-
-            // if (found == undefined || found == false) {
-            //   message.channel.send('No player with that name found to delete, try &search');
-            //   return;
-            // }
-                
-            // message.channel.send('_```Deleted player ' + found + '```_');
-            // });
 
         if(command == 'keep'){
 
@@ -243,7 +237,7 @@ client.on('message', message => {
               
         }        
 
-        if(command == 'player'){
+        if(command == 'search'){
 
 
           if (args.length == 0) {
